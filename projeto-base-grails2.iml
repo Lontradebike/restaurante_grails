@@ -6,6 +6,10 @@
         <fileset id="Grails" name="Grails" removed="false">
           <file>file://$MODULE_DIR$/web-app/WEB-INF/applicationContext.xml</file>
         </fileset>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/web-app/WEB-INF/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/restaurante/web-app/WEB-INF/applicationContext.xml</file>
+        </fileset>
       </configuration>
     </facet>
     <facet type="web" name="GrailsWeb">
@@ -78,7 +82,6 @@
           <root url="jar://$MAVEN_REPOSITORY$/com/google/javascript/closure-compiler-externs/v20141023/closure-compiler-externs-v20141023.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/args4j/args4j/2.0.26/args4j-2.0.26.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/mozilla/rhino/1.7R4/rhino-1.7R4.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/google/javascript/closure-compiler/v20141023/closure-compiler-v20141023.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/grails/grails-datastore-test-support/1.0.2-grails-2.4/grails-datastore-test-support-1.0.2-grails-2.4.jar!/" />
@@ -193,7 +196,8 @@
           <root url="jar://$USER_HOME$/grails-2.5.6/lib/org.grails/grails-gdoc-engine/jars/grails-gdoc-engine-1.0.1.jar!/" />
           <root url="jar://$USER_HOME$/grails-2.5.6/lib/org.yaml/snakeyaml/jars/snakeyaml-1.8.jar!/" />
           <root url="jar://$USER_HOME$/grails-2.5.6/lib/org.xhtmlrenderer/core-renderer/jars/core-renderer-R8.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.29/mysql-connector-java-5.1.29.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.27/mysql-connector-java-8.0.27.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>

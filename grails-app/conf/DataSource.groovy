@@ -24,7 +24,7 @@ environments {
             dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''
             url = "jdbc:mysql://localhost:3306/restaurante"
             username = "root"
-            password = ravtec
+            password = "ravtec"
         }
     }
     test {
